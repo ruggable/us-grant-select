@@ -13,7 +13,7 @@ A Slack bot that grants select permission on a table in Redshift.
 
 Usage: first, download the App from the following url: https://ruggable.slack.com/apps/A02G0GTLUE4-ulysses-s-grant-select?next_id=0
 
-If you are the administrator of the app, you will need to add collaborators to the app configuration.
+If you are the administrator of the app, you will need to add collaborators to the [app configuration](https://api.slack.com/apps/A02G0GTLUE4/general?).
 
 Then, issue the following command in the Slackbot channel: `/grant your-redshift-username schemaname.tablename`. The program checks if the username provided has usage on the provided schema. If it does, it tries to grant select on the table.
 
